@@ -1,0 +1,6 @@
+a = int (input ("Enter A \n"))
+b = int (input ("Enter B \n")) 
+if a>b:
+    print ("A is gratest ")
+else:
+    print ("B is gratest")
