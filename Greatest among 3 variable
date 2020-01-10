@@ -1,0 +1,9 @@
+a = int (input ("Enter A \n"))
+b = int (input ("Enter B \n")) 
+c = int (input ("Enter C \n")) 
+if a>b and a>c:
+    print ("A is gratest ")
+elif b>a and b>c:
+    print ("B is gratest") 
+else:
+    print ("C is gratest")
