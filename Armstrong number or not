@@ -1,0 +1,14 @@
+a=int(input("Enter 3 digit number to check :\n"))
+sum=0
+i=a
+
+while i>0:
+    r=i%10
+    sum=sum+r*r*r
+    i//=10   
+if(a==sum):
+    print("Number is Armstrong")
+else:
+    print("Number is not Armstrong")
+
+   
